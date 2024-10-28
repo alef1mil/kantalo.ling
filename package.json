@@ -1,0 +1,12 @@
+{
+  "name": "kantalo",
+  "version": "1.0.0",
+  "main": "./bin/klo.js",
+  "bin": {
+    "klo": "./bin/klo.js"
+  },
+  "description": "Linguagem de programação interpretada.",
+  "author": "alef1mil",
+  "license": "MIT",
+  "preferGlobal": true
+}
