@@ -20,7 +20,7 @@
       {
         "language": "kantalo",
         "scopeName": "source.kantalo",
-        "path": "./syntaxes/Kantalo.tmLanguage.json"
+        "path": "kantalo.tmLanguage.json"
       }
     ]
   }
