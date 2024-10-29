@@ -19,6 +19,11 @@
     {
       "name": "comment.line.kantalo",
       "match": "//.*$"
+    },
+    {
+      "name": "comment.block.kantalo",
+      "begin": "##",
+      "end": "$"
     }
   ],
   "repository": {},
