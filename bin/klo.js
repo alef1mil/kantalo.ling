@@ -16,13 +16,12 @@ class KantaloInterpreter {
     }
 
     interpretLine(line, linenumber) {
-        if (line.startsWith("var.save")) {
+        if (line.startsWith("var.create")) {
           this.setVariavel(line)
         } else if (line.startsWith("terminal.text")) {
-          const math = line.match(/terminal\.text\s+(\S+)/);
-          if (math) {
-            const valor = math[1];
-            console.log(valor)
+          const texto = line.match(/"(.*?)"/)[1]
+          if (texto) {
+            console.log(texto)
           }
         } else if (line.startsWith("func")) {
           console.log("79**6")
@@ -34,7 +33,7 @@ class KantaloInterpreter {
     }
     
     setVariavel(line) {
-      const match = line.match(/var\.save (\w+) = "(.*)"/);
+      const match = line.match(/var\.create (\w+) = "(.*)"/);
       if (match) {
         const [, varName, value] = match
         this.variables[varName] = value
