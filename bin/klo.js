@@ -33,11 +33,11 @@ class KantaloInterpreter {
     }
     
     setVariavel(line) {
-      const match = line.match(/var\.create (\w+) = "(.*)"/);
+      const match = line.match(/var\.save (\w+) = "(.*)"/);
       if (match) {
         const [, varName, value] = match
         this.variables[varName] = value
-        console.log(`Nova varivel: ${varName}\nCom o valor: ${value}`)
+        console.
       }
     }
 }
