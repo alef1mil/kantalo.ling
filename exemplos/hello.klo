@@ -1,1 +1,3 @@
-hs
+## Simple hello world on kantalo
+
+terminal.text("Hello World")
