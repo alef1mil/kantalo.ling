@@ -5,3 +5,5 @@
 ---
 
 ## How to use?
+
+1. Install [node.js](https://nodejs.org/) on your system
