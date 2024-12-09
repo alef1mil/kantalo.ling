@@ -60,7 +60,7 @@ try {
   const code = fs.readFileSync(fileName, 'utf-8');
   console.log("=====================================================")
   console.log("                 KANTALO EXCUTE")
-  console.log("                 VERSION: 0.0.1-BETA.1")
+  console.log("                 VERSION: 0.0.1-BETA.2")
   console.log("=====================================================")
   interpreter.loadCode(code);
 } catch (error) {
