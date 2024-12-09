@@ -16,4 +16,4 @@
 ---
 ## Update Fixes
 
-*V0.0.1-beta.2* -  _Bugs in the code, and the correction of var.create_
+> *V0.0.1-beta.2* -  _Bugs in the code, and the correction of var.create_
