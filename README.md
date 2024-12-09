@@ -12,3 +12,8 @@
 4. Use `cd bin`
 5. Create a file, it can be any name Example: `<main.klo>`
 6. To run your code type `node klo.js <main.klo>`
+
+---
+## Update Fixes
+
+*V0.0.1-beta.2* -  _Bugs in the code, and the correction of var.create_
