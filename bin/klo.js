@@ -49,7 +49,7 @@ if (args.length !== 1) {
   process.exit(1);
 }
 if (args[0] == "-v") {
-  console.log("KANTALO VERSION 0.0.1-BETA.1")
+  console.log("KANTALO VERSION 0.0.1-BETA.2")
   process.exit(1)
 }
 
