@@ -1,0 +1,4 @@
+var.save player = "Anna"
+var.save pont = "3.0"
+
+terminal.text("Hello player -*player*-, you currently have -*pont*- points")
