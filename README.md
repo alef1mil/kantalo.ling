@@ -1,6 +1,6 @@
 # [Kantalo](https://kantalo.kesug.com)
-> A language entirely made in node.js, with the aim of making life easier for developers
-![Kantalo](./kantalo_o.jpeg).
+> A language entirely made in node.js, with the aim of making life easier for developers.
+![Kantalo](./kantalo_o.jpeg)
 
 ---
 
@@ -17,3 +17,9 @@
 ## Update Fixes
 
 > *V0.0.1-beta.2* -  _Bugs in the code, and the correction of var.create_
+
+---
+## Links
+
+- [Documentation](https://kantalo.kesug.com/?i=1)
+- [Vscode extension](https://marketplace.visualstudio.com/items?itemName=Skaylatk.kantalo)
